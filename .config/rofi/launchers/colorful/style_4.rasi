@@ -29,7 +29,7 @@ window {
 	border-color:					@ac;
     border-radius:                  0px;
 	height:							100%;
-	width:							20%;
+	width:							19%;
     location:                       east;
     x-offset:                       0;
     y-offset:                       0;
@@ -95,7 +95,7 @@ element {
 }
 
 element-icon {
-    size:                           32px;
+    size:                           48px;
     border:                         0px;
 }
 

@@ -8,7 +8,7 @@
  */
 
 configuration {
-    lines:							10;
+    lines:							15;
     columns:						1;
     font: 							"Iosevka Nerd Font 12";
     bw: 							0;
@@ -45,7 +45,7 @@ window {
     border-color: 					@ac;
     border-radius: 					6px;
     padding: 						30;
-    width: 							25%;
+    width: 							20%;
 }
 
 prompt {

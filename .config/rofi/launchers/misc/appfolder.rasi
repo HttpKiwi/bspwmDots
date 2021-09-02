@@ -116,7 +116,7 @@ element {
 }
 
 element-icon {
-    size:                           49px;
+    size:                           64px;
     border:                         0px;
 }
 

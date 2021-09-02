@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 
-killall polybar
+## Add this to your wm startup file.
 
-polybar bordersystem -c ~/.config/polybar/borders/system.ini &
-polybar system -c ~/.config/polybar/system.ini &
+# Terminate already running bar instances
+killall -q polybar
 
-polybar datetime -c ~/.config/polybar/date.ini &
-polybar borderdate -c ~/.config/polybar/borders/date.ini &
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
-polybar menu -c ~/.config/polybar/menu.ini &
-polybar bordermenu -c ~/.config/polybar/borders/menu.ini &
+# Launch bar1 and bar2
+polybar -c ~/.config/polybar/config.ini main &

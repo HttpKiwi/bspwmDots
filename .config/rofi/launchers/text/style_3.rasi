@@ -8,7 +8,7 @@
  */
 
 configuration {
-    lines:							4;
+    lines:							6;
     columns:						1;
     font: 							"Iosevka Nerd Font 12";
     bw: 							0;
